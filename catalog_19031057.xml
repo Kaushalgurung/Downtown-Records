@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+Author: Kaushal Gurung
+Date: 2nd May, 2021 
+Note: Keep Zoom-90% in the Google Chrome while opening xml file.
+-->
+<!DOCTYPE MusicStore SYSTEM "catalog_19031057.dtd">
+<?xml-stylesheet href="catalog_19031057.css" type="text/css"?> 
+<MusicStore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalog_19031057.xsd">
+    <info>
+        <MusicStore_Name>Downtown Records</MusicStore_Name>
+        <Address>Address: 3-27-3 Toyo, Koto-ku,Tokyo</Address>
+        <Telephone_No>Contact: 03 3645 0155</Telephone_No>
+        <Website_Address>www.downtownrecords.jp</Website_Address>
+        <Logo image="img"></Logo>
+    </info>
+    <PlayLists>
+        <Songs>
+            <Music ID_no="ID_1" Language="English,Korean" Label="YG">
+                <Name>  The Album </Name> 
+                <Image id="image_1"></Image>
+                <Album-Type>Studio</Album-Type>
+                <Artist>
+                    <desc>Jisoo- Vocals (all tracks),lyricist (track5)</desc>
+                    <desc>Jennie – vocals (all tracks), lyricist, composer (track 5)</desc>
+                    <desc>Rosé – vocals (all tracks)</desc>
+                    <desc>Lisa – vocals (all tracks)</desc>
+                    <desc>Selena Gomez – vocals, composer (track 2)</desc>
+                    <desc>Cardi B – vocals, lyricist (track 4)</desc>
+                </Artist>
+                <Genre> Pop, RnB, EDM, Hiphop, Trap </Genre>
+                <Realesed-Date>October 2, 2020</Realesed-Date>
+                <Duration>24:26 min </Duration>
+                <Track>
+                    <desc>How You Like That</desc>
+                    <desc>Ice Cream</desc>
+                    <desc>Bet You Wanna</desc>
+                    <desc>Pretty Savage</desc>
+                    <desc>Lovesick Girls</desc>
+                    <desc>Crazy Over You</desc>
+                    <desc>Love to Hate Me</desc>
+                    <desc>You Never Know</desc>
+                </Track>
+            </Music>
+            <Music ID_no="ID_2" Language="English" Label="DGC">
+                <Name>Nevermind</Name>
+                <Image id="image_2" />
+                <Album-Type>Studio</Album-Type>
+                <Artist>
+                    <desc>Kurt Cobain</desc>
+                    <desc>Krist Novoselic</desc>
+                    <desc>Dave Grohl</desc>
+                </Artist>
+                <Genre> pop</Genre>
+                <Realesed-Date>	September 24, 1991</Realesed-Date>
+                <Duration>49:07 mins</Duration>
+                <Track>
+                    <desc>Smells Like Teen Spirit </desc>
+                    <desc>In Bloom</desc>
+                    <desc>Come as You Are</desc>
+                    <desc>Breed</desc>
+                    <desc>Lithium</desc>
+                    <desc>Polly</desc>
+                    <desc>Territorial Pissings</desc>
+                    <desc>Drain You</desc>
+                    <desc>Lounge Act</desc>
+                    <desc>Stay Away</desc>
+                    <desc>On a Plain</desc>
+                    <desc>Something in the Way</desc>
+                    <desc>Endless, Nameless</desc>
+                </Track>
+            </Music>
+            <Music ID_no="ID_3" Language="Nepali" Label="Albatross Nepal">
+                <Name>  Atti Bhayo (अत्ति भयो) </Name> 
+                <Image id="image_3"></Image>
+                <Album-Type>Studio</Album-Type>
+                <Artist>
+                    <desc>Shirish Dali</desc>
+                    <desc>Sunny Manandhar (Suncha Vox)</desc>
+                    <desc>Avaya Siddhi Bajracharya</desc>
+                    <desc>Kismat D Shrestha</desc>
+                </Artist>
+                <Genre> Pop </Genre>
+                <Realesed-Date>December 31, 2009</Realesed-Date>
+                <Duration>34:39 min </Duration>
+                <Track>
+                    <desc>Maa</desc>
+                    <desc>Shristi Ra Dristi</desc>
+                    <desc>Janta Ma Appeal</desc>
+                    <desc>Jhari Ko Raat</desc>
+                    <desc>Chaina</desc>
+                    <desc>Nischal</desc>
+                    <desc>Abhiman</desc>
+                    <desc>Kahile Kahi</desc>
+                </Track>
+            </Music>
+            <Music ID_no="ID_4" Language="Japanese,English" Label="Sony Music Records">
+                <Name>Toxic</Name>
+                <Image id="image_4" />
+                <Album-Type>Studio</Album-Type>
+                <Artist>
+                    <desc>Ruki- Vocalist</desc>
+                    <desc>Uruha- Lead Guitarist</desc>
+                    <desc>Kai- Acoustic Drummer</desc>
+                    <desc>Reita- Bass Guitar</desc>
+                    <desc>Aoi- Guitar</desc>
+                    <desc>Yune- Acoustic Drummer</desc>
+                </Artist>
+                <Genre> Alternative metal, Industrial metal, Metalcore, Progressive rock</Genre>
+                <Realesed-Date>	October 5, 2011</Realesed-Date>
+                <Duration>50:28 mins</Duration>
+                <Track>
+                    <desc>Infuse Into </desc>
+                    <desc>Venemous Spider's Web</desc>
+                    <desc>Sludgy Cult</desc>
+                    <desc>Red</desc>
+                    <desc>Suicide Circus</desc>
+                    <desc>Shiver</desc>
+                    <desc>My Devil On The Bed</desc>
+                    <desc>Untitled</desc>
+                    <desc>Pledge</desc>
+                    <desc>Ruthless Deed</desc>
+                    <desc>Psychopath</desc>
+                    <desc>Vortex</desc>
+                    <desc>Tomorrow Never Dies</desc>
+                    <desc>Omega</desc>
+                </Track>
+            </Music>
+        <Music ID_no="ID_5" Language="English" Label="Parlophone">
+            <Name>  Revolver </Name> 
+            <Image id="image_5"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>John Lennon</desc>
+                <desc>Paul McCartney</desc>
+                <desc>George Harrison</desc>
+                <desc>Ringo Starr</desc>
+
+            </Artist>
+            <Genre> Pop, RnB, EDM, Hiphop, Trap </Genre>
+            <Realesed-Date>October 2, 2020</Realesed-Date>
+            <Duration>24:26 min </Duration>
+            <Track>
+                <desc>Taxman</desc>
+                <desc>Eleanor Rigby</desc>
+                <desc>I'm Only Sleeping</desc>
+                <desc>Love You To</desc>
+                <desc>Here, There and Everywhere</desc>
+                <desc>Yellow Submarine</desc>
+                <desc>She Said She Said</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_6" Language="English" Label="Rolling Stones">
+            <Name>Some Girls</Name>
+            <Image id="image_6" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc> Mick Jagger</desc>
+                <desc>Keith Richards</desc>
+                <desc>Brian Jones </desc>
+                <desc>Bill Wyman</desc>
+                <desc>Charlie Watts</desc>
+            </Artist>
+            <Genre> Rockpunk rock, Disco, Country</Genre>
+            <Realesed-Date> June 9, 1978</Realesed-Date>
+            <Duration>40:45 mins</Duration>
+            <Track>
+                <desc>Miss You </desc>
+                <desc>When the Whip Comes Down</desc>
+                <desc>Just My Imagination (Running Away with Me)</desc>
+                <desc>Some Girls</desc>
+                <desc>Lies</desc>
+                <desc>Far Away Eyes</desc>
+                <desc>Respectable</desc>
+                <desc>Before They Make Me Run</desc>
+                <desc>Beast of Burden</desc>
+                <desc>Shattered</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_7" Language="English" Label="Harvest">
+            <Name>  The Dark Side of the Moon </Name> 
+            <Image id="image_7"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Syd Barrett – lead and rhythm guitars, vocals</desc>
+                <desc>Nick Mason – drums, percussion, vocals</desc>
+                <desc>Roger Waters – bass, vocals, rhythm guitar </desc>
+                <desc>Richard Wright – keyboards, piano, organ, vocals</desc>
+                <desc>David Gilmour – lead and rhythm guitars, vocals, bass, keyboards</desc>
+                <desc>Bob Klose – lead guitar </desc>
+            </Artist>
+            <Genre> Progressive rock </Genre>
+            <Realesed-Date>1 March 1973</Realesed-Date>
+            <Duration>43:09 min </Duration>
+            <Track>
+                <desc>Speak to Me</desc>
+                <desc>Breathe</desc>
+                <desc>On the Run"</desc>
+                <desc>Time</desc>
+                <desc>The Great Gig in the Sky</desc>
+                <desc>Money</desc>
+                <desc>Any Colour You Like</desc>
+                <desc>Brain Damage</desc>
+                <desc>Eclipse</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_8" Language="English" Label="EMI">
+            <Name>Queen II</Name>
+            <Image id="image_8" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Kurt Cobain</desc>
+                <desc>Krist Novoselic</desc>
+                <desc>Dave Grohl</desc>
+            </Artist>
+            <Genre> Progressive rock</Genre>
+            <Realesed-Date>	September 24, 1991</Realesed-Date>
+            <Duration>40:42 mins</Duration>
+            <Track>
+                <desc>Procession </desc>
+                <desc>Father to Son</desc>
+                <desc>White Queen (As It Began)</desc>
+                <desc>Some Day One Day</desc>
+                <desc>The Loser in the End</desc>
+                <desc>Ogre Battle</desc>
+                <desc>The Fairy Feller's Master-Stroke</desc>
+                <desc>Nevermore</desc>
+                <desc>The March of the Black Queen</desc>
+                <desc>Funny How Love Is</desc>
+                <desc>Seven Seas of Rhye</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_9" Language="Nepali" Label="The Edge Band Nepal">
+            <Name>  Gantabya</Name> 
+            <Image id="image_9"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Jeewan Gurung – Vocal/Composer/Songwriter.</desc>
+                <desc>Bishnu Gurung – Lead Guitarist.</desc>
+                <desc>Sandeep BK – Bass Guitarist.</desc>
+                <desc>Albin Pariyar – Rhythm Guitar.</desc>
+                <desc>Ganesh Rai – Drummer.</desc>
+            </Artist>
+            <Genre> Rock </Genre>
+            <Realesed-Date>August 22, 2019</Realesed-Date>
+            <Duration>31:34 min </Duration>
+            <Track>
+                <desc>Timro Yaad</desc>
+                <desc>Samjheyra</desc>
+                <desc>Yo Junibhar</desc>
+                <desc>Har Saanjh</desc>
+                <desc>Kasto Yo Din</desc>
+                <desc>Birsu Bhanchu</desc>
+                <desc>Gantabya</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_10" Language="Nepali" Label="CobWeb Nepal">
+            <Name>MERCEDES BENZ</Name>
+            <Image id="image_10" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Divesh Mulmi(Guitar)</desc>
+                <desc>Nilesh Joshi (Bass)</desc>
+                <desc>Siddhartha Dhakhwa(Drums)</desc>
+                <desc>Sanjay Aryal (Vox)</desc>
+                <desc>Srijan Bikram Gewali (Guitar)</desc>
+            </Artist>
+            <Genre> Pop</Genre>
+            <Realesed-Date>	2000</Realesed-Date>
+            <Duration>49:07 mins</Duration>
+            <Track>
+                <desc>Kasaiko Maya</desc>
+                <desc>Na Maya Launu</desc>
+                <desc>Jindagi Yo</desc>
+                <desc>Ko Hau</desc>
+                <desc>Samhali Rakha</desc>
+                <desc>Timi Lai Nai Bho</desc>
+                <desc>Gajalu Gajalu</desc>
+                <desc>Mercedes Benz</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_11" Language="English" Label="Interscope">
+            <Name>  Legends Never Die </Name> 
+            <Image id="image_11"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Juice Wrld – vocals (all tracks)</desc>
+                <desc>Halsey – background vocals (13)</desc>
+                <desc>Brandon Buttner – vocal producer (13)</desc>
+                <desc>Hylton Mowday – strings (1, 10, 18)</desc>
+            </Artist>
+            <Genre> Hiphop, emo rap</Genre>
+            <Realesed-Date>July 10, 2020</Realesed-Date>
+            <Duration>58:50 min </Duration>
+            <Track>
+                <desc>Anxiety</desc>
+                <desc>Conversations</desc>
+                <desc>Titanic</desc>
+                <desc>Bad Energy</desc>
+                <desc>Righteous</desc>
+                <desc>Blood on My Jeans</desc>
+                <desc>Smile ft. The Weekend</desc>
+                <desc>Tell Me U Luv Me ft. Trippie Redd</desc>
+                <desc>Hate the Other Side</desc>
+                <desc>Get Through It</desc>
+                <desc>Life's a Mess ft. Halsey</desc>
+                <desc>Come 'n' Go</desc>
+                <desc>I Want It</desc>
+                <desc>Fighting Demons</desc>
+                <desc>Wishing Well</desc>
+                <desc>Juice WRLD Speaks from Heaven</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_12" Language="English" Label="Interscope">
+            <Name>Rare</Name>
+            <Image id="image_12" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Selena Gomez – lead vocals (all tracks), backing vocals (1)</desc>
+                <desc>6lack – featured vocals (9)</desc>
+                <desc>Kid Cudi – featured vocals, backing vocals (13)</desc>
+            </Artist>
+            <Genre> pop</Genre>
+            <Realesed-Date>	January 10, 2020</Realesed-Date>
+            <Duration>41:53 mins</Duration>
+            <Track>
+                <desc>Boyfriend </desc>
+                <desc>Lose You to Love Me</desc>
+                <desc>Rare</desc>
+                <desc>Souvenir</desc>
+                <desc>Look at Her Now</desc>
+                <desc>She</desc>
+                <desc>Crowded Room ft.6lack</desc>
+                <desc>Vulnerable</desc>
+                <desc>Dance Again</desc>
+                <desc>Ring</desc>
+                <desc>A Sweeter Place ft. Kid Cudi</desc>
+                <desc>People You Know</desc>
+                <desc>Cut You Off</desc>
+                <desc>Let Me Get Me</desc>
+                <desc>Kinda Crazy</desc>
+                <desc>Fun</desc>
+                <desc>Feel Me</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_13" Language="English" Label="Albert">
+            <Name>  T.N.T </Name> 
+            <Image id="image_13"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Bon Scott – lead vocals, bagpipes on "It's a Long Way to the Top"</desc>
+                <desc>Angus Young – lead guitar</desc>
+                <desc>Malcolm Young – rhythm guitar, backing vocals</desc>
+                <desc>Mark Evans – bass guitar on tracks 1–7</desc>
+                <desc>Phil Rudd – drums, percussion on tracks 1–7</desc>
+                <desc>George Young – bass guitar on tracks 8–9, production)</desc>
+                <desc>Tony Currenti – drums on tracks 8–9</desc>
+            </Artist>
+            <Genre> Pop, RnB, EDM, Hiphop, Trap </Genre>
+            <Realesed-Date>December 1, 1975</Realesed-Date>
+            <Duration>41:55 min </Duration>
+            <Track>
+                <desc>It's a Long Way to the Top (If You Wanna Rock 'n' Roll)</desc>
+                <desc>Rock 'n' Roll Singer</desc>
+                <desc>The Jack</desc>
+                <desc>Live Wire</desc>
+                <desc>T.N.T.</desc>
+                <desc>Rocker</desc>
+                <desc>Can I Sit Next to You Girl</desc>
+                <desc>High Voltage</desc>
+                <desc>School Days</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_14" Language="English" Label="	Asylum">
+            <Name>Hotel California</Name>
+            <Image id="image_14" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>Don Felder – guitars, backing vocals, pedal steel (on The Last Resort)Kurt Cobain</desc>
+                <desc>Glenn Frey – guitars, backing vocals, keyboards, lead vocals</desc>
+                <desc>Don Henley – drums, percussion, lead vocals, backing vocals, synthesizer</desc>
+                <desc>Randy Meisner – bass, backing vocals, lead vocals, guitarrón</desc>
+                <desc>Joe Walsh – guitars, keyboards, backing vocals, lead vocals</desc>
+            </Artist>
+            <Genre> Rock</Genre>
+            <Realesed-Date>	December 8, 1976</Realesed-Date>
+            <Duration>43:28 mins</Duration>
+            <Track>
+                <desc>Hotel California </desc>
+                <desc>New Kid in Town"</desc>
+                <desc>Life in the Fast Lane</desc>
+                <desc>Wasted Time</desc>
+                <desc>Wasted Time (Reprise)</desc>
+                <desc>Victim of Love</desc>
+                <desc>Pretty Maids All in a Row</desc>
+                <desc>Try and Love Again</desc>
+                <desc>The Last Resort</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_15" Language="English" Label="	Elektra">
+            <Name>  Metallica </Name> 
+            <Image id="image_15"></Image>
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>James Hetfield – vocals, rhythm guitar, guitar solo on "Nothing Else Matters", production</desc>
+                <desc>Kirk Hammett – lead guitar</desc>
+                <desc>Jason Newsted – bass guitar</desc>
+                <desc>Lisa – vocals (all tracks)</desc>
+                <desc>Lars Ulrich – drums, percussion, production)</desc>
+            </Artist>
+            <Genre> Heavy metal </Genre>
+            <Realesed-Date>	August 12, 1991</Realesed-Date>
+            <Duration>24:26 min </Duration>
+            <Track>
+                <desc>Enter Sandman</desc>
+                <desc>Sad but True</desc>
+                <desc>Holier than Thou</desc>
+                <desc>The Unforgiven</desc>
+                <desc>Wherever I May Roam</desc>
+                <desc>Don't Tread on Me</desc>
+                <desc>Through the Never</desc>
+                <desc>Nothing Else Matters</desc>
+                <desc>Of Wolf and Man</desc>
+                <desc>The God That Failed</desc>
+                <desc>My Friend of Misery</desc>
+                <desc>The Struggle Within</desc>
+            </Track>
+        </Music>
+        <Music ID_no="ID_16" Language="English" Label="DGC">
+            <Name>Appetite for Destruction</Name>
+            <Image id="image_16" />
+            <Album-Type>Studio</Album-Type>
+            <Artist>
+                <desc>W. Axl Rose – lead vocals, synthesizer on "Paradise City", percussion</desc>
+                <desc>Slash – lead guitar, rhythm guitar, acoustic guitar, slide guitar, talk box, backing vocals</desc>
+                <desc>Izzy Stradlin – rhythm guitar, lead guitar, backing vocals, percussion</desc>
+                <desc>Duff "Rose" McKagan – bass, backing vocals</desc>
+                <desc>Steven Adler – drums, percussion</desc>
+            </Artist>
+            <Genre>Hard rock, Heavy metal, Hair metal</Genre>
+            <Realesed-Date>	July 21, 1987</Realesed-Date>
+            <Duration>53:52 mins</Duration>
+            <Track>
+                <desc>Welcome to the Jungle </desc>
+                <desc>It's So Easy</desc>
+                <desc>Nightrain</desc>
+                <desc>Out ta Get Me</desc>
+                <desc>Mr. Brownstone"</desc>
+                <desc>Paradise CityPolly</desc>
+                <desc>My Michelle</desc>
+                <desc>Think About You</desc>
+                <desc>Sweet Child o' Mine</desc>
+                <desc>You're Crazy</desc>
+                <desc>Anything Goes</desc>
+                <desc>Rocket Queen</desc>
+            </Track>
+        </Music>
+        </Songs>
+    </PlayLists>
+</MusicStore>

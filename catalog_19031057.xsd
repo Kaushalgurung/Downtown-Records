@@ -1,0 +1,99 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="MusicStore_Name" type="xs:string"/>
+  <xs:element name="Address" type="xs:string"/>
+  <xs:element name="Telephone_No" type="xs:string"/>
+  <xs:element name="Website_Address" type="xs:anyURI"/>
+  <xs:element name="Logo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="image"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="desc" type="xs:string"/>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Image">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="id" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Album-Type" type="xs:string"/>
+  <xs:element name="Artist">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="desc" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Genre" type="xs:string"/>
+  <xs:element name="Realesed-Date" type="xs:string"/>
+  <xs:element name="Duration" type="xs:string"/>
+  <xs:element name="Track">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="desc" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Music">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Name"/>
+        <xs:element ref="Image"/>
+        <xs:element ref="Album-Type"/>
+        <xs:element ref="Artist"/>
+        <xs:element ref="Genre"/>
+        <xs:element ref="Realesed-Date"/>
+        <xs:element ref="Duration"/>
+        <xs:element ref="Track"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="ID_no" use="optional"/>
+      <xs:attribute type="xs:string" name="Language" use="optional"/>
+      <xs:attribute type="xs:string" name="Label" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Songs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Music" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="MusicStore_Name"/>
+        <xs:element ref="Address"/>
+        <xs:element ref="Telephone_No"/>
+        <xs:element ref="Website_Address"/>
+        <xs:element ref="Logo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PlayLists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Songs"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MusicStore">
+    <xs:annotation>
+      <xs:documentation>Author: Kaushal Gurung
+Date: 2nd May, 2021 
+Note: Keep Zoom-90% in the Google Chrome while opening xml file.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="info"/>
+        <xs:element ref="PlayLists"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

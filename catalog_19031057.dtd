@@ -1,0 +1,86 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT MusicStore (info,PlayLists)>
+<!ATTLIST MusicStore
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT info (MusicStore_Name,Address,Telephone_No,Website_Address,
+                Logo)>
+<!ATTLIST info
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PlayLists (Songs)>
+<!ATTLIST PlayLists
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT MusicStore_Name (#PCDATA)>
+<!ATTLIST MusicStore_Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Address (#PCDATA)>
+<!ATTLIST Address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Telephone_No (#PCDATA)>
+<!ATTLIST Telephone_No
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Website_Address (#PCDATA)>
+<!ATTLIST Website_Address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Logo EMPTY>
+<!ATTLIST Logo
+  xmlns CDATA #FIXED ''
+  image NMTOKEN #REQUIRED>
+
+<!ELEMENT Songs (Music)+>
+<!ATTLIST Songs
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Music (Name,Image,Album-Type,Artist,Genre,Realesed-Date,
+                 Duration,Track)>
+<!ATTLIST Music
+  xmlns CDATA #FIXED ''
+  ID_no NMTOKEN #REQUIRED
+  Label CDATA #REQUIRED
+  Language CDATA #REQUIRED>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Image EMPTY>
+<!ATTLIST Image
+  xmlns CDATA #FIXED ''
+  id NMTOKEN #REQUIRED>
+
+<!ELEMENT Album-Type (#PCDATA)>
+<!ATTLIST Album-Type
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Artist (desc)+>
+<!ATTLIST Artist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Genre (#PCDATA)>
+<!ATTLIST Genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Realesed-Date (#PCDATA)>
+<!ATTLIST Realesed-Date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Duration (#PCDATA)>
+<!ATTLIST Duration
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Track (desc)+>
+<!ATTLIST Track
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT desc (#PCDATA)>
+<!ATTLIST desc
+  xmlns CDATA #FIXED ''>
